@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message Filter {
+  optional string src_ip = 1;
+  optional string dst_ip = 2;
+}
+
+message Filters { repeated Filter datas = 1; }

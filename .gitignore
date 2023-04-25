@@ -1,0 +1,11 @@
+build/
+.vs/
+out/
+launch.json
+settings.json
+CMakeSettings.json
+*.json
+.vscode/
+.cache
+temp*
+yhl_version.cpp
